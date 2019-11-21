@@ -1,0 +1,34 @@
+Organizes transactions in to time periods or blocks
+Each block = List of transactions
+
+Action for each block:
+    validate transactions
+    publish a list of validated transactions
+
+TODO:
+    Select a valid subset of transactions:
+        A transaction can reference another in the same block
+        More than one transaction may spend the same output
+
+Provided:
+    transaction class
+
+Transaction output:
+    a value
+    a public key of the receiver
+Transaction input
+    hash of the previous transaction containing the coin
+    index of the coin in that transaction
+    digital signature (must be valid)
+
+data to be signed:
+    hash of a previous transaction whose output is being consumed
+    index of the coin in that transaction
+    all outputs of the current transaction:
+        value of coin to be sent
+        address to send
+
+
+
+
+    
