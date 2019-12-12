@@ -6,4 +6,4 @@ Assignment 1: 100/100
 
 Assignment 2: 92/100 
 
-Assignment 3: ?
+Assignment 3: 100/100 
